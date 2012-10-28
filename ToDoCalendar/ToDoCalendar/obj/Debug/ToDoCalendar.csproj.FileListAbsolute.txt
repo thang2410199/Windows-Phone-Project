@@ -16,3 +16,4 @@ C:\Users\Thang\Documents\GitHub\Windows-Phone-Project\ToDoCalendar\ToDoCalendar\
 C:\Users\Thang\Documents\GitHub\Windows-Phone-Project\ToDoCalendar\ToDoCalendar\Bin\Debug\Telex.dll
 C:\Users\Thang\Documents\GitHub\Windows-Phone-Project\ToDoCalendar\ToDoCalendar\Bin\Debug\Microsoft.Phone.Controls.xml
 C:\Users\Thang\Documents\GitHub\Windows-Phone-Project\ToDoCalendar\ToDoCalendar\obj\Debug\Views\DetailPage.g.i.cs
+C:\Users\Thang\Documents\GitHub\Windows-Phone-Project\ToDoCalendar\ToDoCalendar\obj\Debug\ToDoCalendar.csprojResolveAssemblyReference.cache
