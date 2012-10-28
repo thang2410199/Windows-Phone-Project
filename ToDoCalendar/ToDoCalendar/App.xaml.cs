@@ -12,14 +12,11 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
-using ToDoCalendar.Models;
 
 namespace ToDoCalendar
 {
     public partial class App : Application
     {
-
-        public static Setting CurrentSetting;
         /// <summary>
         /// Provides easy access to the root frame of the Phone Application.
         /// </summary>
@@ -66,7 +63,6 @@ namespace ToDoCalendar
         // This code will not execute when the application is reactivated
         private void Application_Launching(object sender, LaunchingEventArgs e)
         {
-            CurrentSetting = Setting.Load();
         }
 
         // Code to execute when the application is activated (brought to foreground)
@@ -85,7 +81,6 @@ namespace ToDoCalendar
         // This code will not execute when the application is deactivated
         private void Application_Closing(object sender, ClosingEventArgs e)
         {
-            CurrentSetting.Save();
         }
 
         // Code to execute if a navigation fails
