@@ -18,6 +18,16 @@ namespace ToDoCalendar.ViewModels
         public EditEntry()
         {
             InitializeComponent();
+            titleTextBox.Text = App.CommonEntry.Title;
+            detailTextBox.Text = App.CommonEntry.Content;
+        }
+
+        private void ApplicationBarIconButton_Click(object sender, EventArgs e)
+        {
+            App.CommonEntry.Title = titleTextBox.Text;
+            App.CommonEntry.Content = detailTextBox.Text;
+            App.CurrentSetting.Save();
+            this.NavigationService.GoBack();
         }
     }
 }

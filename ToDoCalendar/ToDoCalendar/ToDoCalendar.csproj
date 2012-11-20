@@ -125,6 +125,7 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Images\Add.png" />
+    <Resource Include="Images\background.png" />
     <Content Include="Images\Save.png" />
     <Content Include="SplashScreenImage.jpg" />
   </ItemGroup>
